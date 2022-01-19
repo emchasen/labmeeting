@@ -7,4 +7,4 @@ editor_options:
   chunk_output_type: console
 ---
 
-Describe your project.
+The goal of this project is for me to learn how to use workflowr in order to teach it to my labmates.

@@ -8,4 +8,13 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my research website.
+This is a workflowr example to provide at lab meeting on January 21, 2022.
+
+Steps in this project include:
+
+1. Open data and create summary statistics
+    + [Open data](openData.html) (4 spaces to create sub item)
+    + [summary stats](summaryStats.html)
+2. Create plots with ggplot2
+    + [Figure 1](figure1.html)
+    
