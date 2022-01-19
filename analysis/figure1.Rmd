@@ -1,0 +1,28 @@
+---
+title: "figure1"
+author: "Elissa Chasen"
+date: "2022-01-19"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Introduction
+
+Load libraries
+```{r}
+library(ggplot2)
+```
+
+Load data
+```{r}
+testDat <- read.csv("data/testData.csv")
+```
+
+
+## Create figure
+```{r}
+ggplot(testDat, aes(x = var1, y = var2)) +
+  geom_point()
+```
+

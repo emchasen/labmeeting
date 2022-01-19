@@ -1,0 +1,23 @@
+---
+title: "summaryStats"
+author: "Elissa Chasen"
+date: "2022-01-19"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Repeat of open data
+
+```{r}
+testDat <- read.csv("data/testData.csv")
+```
+
+## Explore the data
+
+```{r}
+str(testDat)
+summary(testDat)
+head(testDat)
+```
+

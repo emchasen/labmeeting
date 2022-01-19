@@ -1,0 +1,22 @@
+---
+title: "openData"
+author: "Elissa Chasen"
+date: "2022-01-19"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Introduction
+
+In order to create this first file, I typed
+```{r, eval=FALSE}
+wflow_open("analysis/'filename'.Rmd")
+```
+
+## Open the data 
+This data is stored in the data sub-folder
+```{r}
+testDat <- read.csv("data/testData.csv")
+```
+
